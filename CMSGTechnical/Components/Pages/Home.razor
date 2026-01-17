@@ -35,6 +35,8 @@
     private void AddItem(int id)
     {
         var menuItem = MenuItems.First(i=>i.Id==id);
+        Console.WriteLine(id);
+        Console.WriteLine(menuItem.Id);
         Basket.Add(menuItem);
     }
     

@@ -838,19 +838,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/benedicthall/.nuget/packages/": {}
+    "C:\\Users\\Bened\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/benedicthall/Documents/CodingAssignments/CMSGTechnical/CMSGTechnical/CMSGTechnical.csproj",
+      "projectUniqueName": "C:\\Users\\Bened\\Documents\\Coding\\CMSGTechnical\\CMSGTechnical\\CMSGTechnical.csproj",
       "projectName": "CMSGTechnical",
-      "projectPath": "/Users/benedicthall/Documents/CodingAssignments/CMSGTechnical/CMSGTechnical/CMSGTechnical.csproj",
-      "packagesPath": "/Users/benedicthall/.nuget/packages/",
-      "outputPath": "/Users/benedicthall/Documents/CodingAssignments/CMSGTechnical/CMSGTechnical/obj/",
+      "projectPath": "C:\\Users\\Bened\\Documents\\Coding\\CMSGTechnical\\CMSGTechnical\\CMSGTechnical.csproj",
+      "packagesPath": "C:\\Users\\Bened\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Bened\\Documents\\Coding\\CMSGTechnical\\CMSGTechnical\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/benedicthall/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Bened\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -862,11 +862,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/benedicthall/Documents/CodingAssignments/CMSGTechnical/CMSGTechnical.Mediator/CMSGTechnical.Mediator.csproj": {
-              "projectPath": "/Users/benedicthall/Documents/CodingAssignments/CMSGTechnical/CMSGTechnical.Mediator/CMSGTechnical.Mediator.csproj"
+            "C:\\Users\\Bened\\Documents\\Coding\\CMSGTechnical\\CMSGTechnical.Mediator\\CMSGTechnical.Mediator.csproj": {
+              "projectPath": "C:\\Users\\Bened\\Documents\\Coding\\CMSGTechnical\\CMSGTechnical.Mediator\\CMSGTechnical.Mediator.csproj"
             },
-            "/Users/benedicthall/Documents/CodingAssignments/CMSGTechnical/CMSGTechnical.Repository/CMSGTechnical.Repository.csproj": {
-              "projectPath": "/Users/benedicthall/Documents/CodingAssignments/CMSGTechnical/CMSGTechnical.Repository/CMSGTechnical.Repository.csproj"
+            "C:\\Users\\Bened\\Documents\\Coding\\CMSGTechnical\\CMSGTechnical.Repository\\CMSGTechnical.Repository.csproj": {
+              "projectPath": "C:\\Users\\Bened\\Documents\\Coding\\CMSGTechnical\\CMSGTechnical.Repository\\CMSGTechnical.Repository.csproj"
             }
           }
         }
@@ -880,8 +880,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.300"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -907,20 +906,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.20, 8.0.20]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.osx-arm64",
-            "version": "[8.0.20, 8.0.20]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.20, 8.0.20]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -929,7 +914,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.417/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
