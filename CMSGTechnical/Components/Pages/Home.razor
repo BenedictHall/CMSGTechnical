@@ -30,6 +30,7 @@
     protected override async Task OnInitializedAsync()
     {
         MenuItems = (await Mediator.Send(new GetMenuItems())).ToArray();
+        MenuItems = MenuItems.OrderBy(t => t.Price).ToArray();
     }
 
     private void AddItem(int id)
