@@ -46,6 +46,7 @@
 
     public void AddItem(MenuItemDto item)
     {
+        Console.WriteLine("BasketDisplay.razor: " + item.Name);
         Basket.MenuItems.Add(item);
         StateHasChanged();
     }

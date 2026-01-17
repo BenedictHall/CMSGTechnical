@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CMSGTechnical.Mediator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+af572c642d7bcf5c0cca5fe41590353d761a2300")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e28a9fb17bf4b5786ca3a7dae545183014b9a24")]
 [assembly: System.Reflection.AssemblyProductAttribute("CMSGTechnical.Mediator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CMSGTechnical.Mediator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,12 @@
+C:\Users\Bened\Documents\Coding\CMSGTechnical\CMSGTechnical.Domain\bin\Debug\net8.0\CMSGTechnical.Domain.deps.json
+C:\Users\Bened\Documents\Coding\CMSGTechnical\CMSGTechnical.Domain\bin\Debug\net8.0\CMSGTechnical.Domain.dll
+C:\Users\Bened\Documents\Coding\CMSGTechnical\CMSGTechnical.Domain\bin\Debug\net8.0\CMSGTechnical.Domain.pdb
+C:\Users\Bened\Documents\Coding\CMSGTechnical\CMSGTechnical.Domain\obj\Debug\net8.0\CMSGTechnical.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bened\Documents\Coding\CMSGTechnical\CMSGTechnical.Domain\obj\Debug\net8.0\CMSGTechnical.Domain.AssemblyInfoInputs.cache
+C:\Users\Bened\Documents\Coding\CMSGTechnical\CMSGTechnical.Domain\obj\Debug\net8.0\CMSGTechnical.Domain.AssemblyInfo.cs
+C:\Users\Bened\Documents\Coding\CMSGTechnical\CMSGTechnical.Domain\obj\Debug\net8.0\CMSGTechnical.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Bened\Documents\Coding\CMSGTechnical\CMSGTechnical.Domain\obj\Debug\net8.0\CMSGTechnical.Domain.sourcelink.json
+C:\Users\Bened\Documents\Coding\CMSGTechnical\CMSGTechnical.Domain\obj\Debug\net8.0\CMSGTechnical.Domain.dll
+C:\Users\Bened\Documents\Coding\CMSGTechnical\CMSGTechnical.Domain\obj\Debug\net8.0\refint\CMSGTechnical.Domain.dll
+C:\Users\Bened\Documents\Coding\CMSGTechnical\CMSGTechnical.Domain\obj\Debug\net8.0\CMSGTechnical.Domain.pdb
+C:\Users\Bened\Documents\Coding\CMSGTechnical\CMSGTechnical.Domain\obj\Debug\net8.0\ref\CMSGTechnical.Domain.dll

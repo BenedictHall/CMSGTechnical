@@ -59,6 +59,7 @@ internal static class SeedDataHelper
             {
                 Id = id++, Order = 0,
                 Name = "Vegetable Stir Fry",
+                Description = "A stir fry containing various vegetables.",
                 Price = 11.99m
             },
             new
@@ -94,6 +95,7 @@ internal static class SeedDataHelper
             {
                 Id = id++, Order = 0,
                 Name = "Chocolate Cake",
+                Description = "A cake made out of chocolate.",
                 Price = 6.99m
             }
         );

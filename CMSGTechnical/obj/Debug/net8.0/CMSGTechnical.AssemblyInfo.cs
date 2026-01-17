@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CMSGTechnical")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5f703093dfa73e7daabf2c53cd7099dbd851bdd7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e28a9fb17bf4b5786ca3a7dae545183014b9a24")]
 [assembly: System.Reflection.AssemblyProductAttribute("CMSGTechnical")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CMSGTechnical")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

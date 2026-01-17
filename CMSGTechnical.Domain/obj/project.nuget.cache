@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1ff8krqm4GA=",
+  "dgSpecHash": "NouUQyBAMh8=",
   "success": true,
-  "projectFilePath": "/Users/benedicthall/Documents/CodingAssignments/CMSGTechnical/CMSGTechnical.Domain/CMSGTechnical.Domain.csproj",
-  "expectedPackageFiles": [
-    "/Users/benedicthall/.nuget/packages/microsoft.netcore.app.ref/8.0.20/microsoft.netcore.app.ref.8.0.20.nupkg.sha512",
-    "/Users/benedicthall/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.20/microsoft.aspnetcore.app.ref.8.0.20.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\Bened\\Documents\\Coding\\CMSGTechnical\\CMSGTechnical.Domain\\CMSGTechnical.Domain.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
