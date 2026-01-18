@@ -5,18 +5,39 @@
 @using MediatR
 
 <div class="basket">
-    
+    @{UniqueItems = new List<(int,int)>();}
     @foreach (var item in Basket.MenuItems)
     {
+        Console.WriteLine(item.Id);
+        bool matchFound = false;
+        for(int i=0; i<UniqueItems.Count; i++)
+        {
+            if (UniqueItems[i].Item2 == item.Id){
+                UniqueItems[i] = (UniqueItems[i].Item1 + 1, UniqueItems[i].Item2);
+                matchFound = true;
+                break;
+            }
+        }
+        if (!matchFound)
+        {
+            UniqueItems.Add((1,item.Id));
+        }
 
+    }
+    
+
+    @foreach (var itemTuple in UniqueItems)
+    {
+        Console.WriteLine(itemTuple);
+        MenuItemDto item = Basket.MenuItems.First(i => i.Id == itemTuple.Item2);
         <div>
             <div>
-                @item.Name - £@item.Price
+                @item.Name x @itemTuple.Item1 - £@(item.Price * itemTuple.Item1)
             </div>
             
             <div>
-                <button class="btn btn-primary btn-round" @onclick="() => Basket.MenuItems.Add(item)">+</button>
-                <button class="btn btn-primary btn-round" @onclick="() => Basket.MenuItems.Remove(item)">-</button>
+                <button class="btn btn-primary btn-round" @onclick="() => AddItem(item)">+</button>
+                <button class="btn btn-primary btn-round" @onclick="() => Remove(item)">-</button>
             </div>
         </div>
     }
@@ -38,6 +59,8 @@
     private BasketDto Basket { get; set; } = new();
     [CascadingParameter]
     private BasketService BasketService { get; set; }
+
+    private List<(int,int)> UniqueItems { get; set; }
 
     protected override void OnInitialized()
     {
