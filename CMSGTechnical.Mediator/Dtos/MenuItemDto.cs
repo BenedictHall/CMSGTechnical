@@ -17,6 +17,8 @@ namespace CMSGTechnical.Mediator.Dtos
         public string? Description { get; set; }
         public decimal Price { get; set; }
 
+        public string? Category {get; set; }
+
         public int Order { get; set; } = 0;
 
         public ICollection<MenuItemDto> ChildItems { get; set; } = new List<MenuItemDto>();
@@ -41,7 +43,7 @@ namespace CMSGTechnical.Mediator.Dtos
                 Name = menuItem.Name,
                 Id = menuItem.Id,
                 Order = menuItem.Order,
-
+                Category = menuItem.Category,
             };
         }
 
