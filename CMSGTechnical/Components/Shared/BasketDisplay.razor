@@ -8,7 +8,6 @@
     @{UniqueItems = new List<(int,int)>();}
     @foreach (var item in Basket.MenuItems)
     {
-        Console.WriteLine(item.Id);
         bool matchFound = false;
         for(int i=0; i<UniqueItems.Count; i++)
         {
@@ -28,7 +27,6 @@
 
     @foreach (var itemTuple in UniqueItems)
     {
-        Console.WriteLine(itemTuple);
         MenuItemDto item = Basket.MenuItems.First(i => i.Id == itemTuple.Item2);
         <div>
             <div>
